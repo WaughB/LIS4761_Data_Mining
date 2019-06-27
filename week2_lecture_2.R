@@ -4,7 +4,6 @@
 # Followed from video here: https://www.youtube.com/watch?v=_MuDq5-dsQA
 
 # Install packages
-install.packages("ggplot2")
 library(ggplot2)
 
 # First section - MTCARS data
@@ -20,7 +19,7 @@ ggplot(mtcars, aes(group=cyl, x=cyl, mpg)) + geom_boxplot()
 ggplot(mtcars, aes(group=cyl, x=cyl, mpg)) + geom_boxplot() + coord_flip()
 
 # Barplot of mtcars data. 
-ggplot(mtcars, aes(x=cyl)) + geom_bars()
+ggplot(mtcars, aes(x=cyl)) + geom_bar()
 
 # Comparison to default histogram. 
 hist(mtc$cyl)
@@ -38,7 +37,7 @@ g <- ggplot(mtc, aes(x=car.names, y = wt)) + geom_bar(stat="identity")
 g
 
 # Barplot with more formatting. 
-g <- g + theme(axis.test.x=element_text(angle = 90, hjust=1))
+g <- g + theme(axis.title.x =element_text(angle = 90, hjust=1))
 g
 
 # Barplot with a title. 
@@ -55,7 +54,7 @@ ggplot(mtc, aes(x=cyl,fill=factor(gear))) + geom_bar(position="dodge")
 ggplot(mtc, aes(x=mpg, y=wt)) + geom_point()
 
 # Scatterplot that takes into account speed. 
-ggplot(metc, aes(x=mpg, y=wt)) + geom_point(aes(size=qsec))
+ggplot(mtc, aes(x=mpg, y=wt)) + geom_point(aes(size=qsec))
 
 # Another take on adding in speed
 g <- ggplot(mtc, aes(x=mpg, y=wt)) + geom_point(aes(size=qsec, color=qsec))

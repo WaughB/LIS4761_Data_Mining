@@ -17,7 +17,7 @@ colnames(crimeInSYR)[3] <- "city"
 colnames(crimeInSYR)[4] <- "date"
 
 # Register Google API key. 
-register_google(key = "AIzaSyCKi2xp7yvsE5Iu8vnDBQg6No-GNVakKwI")
+# register_google(key = "***")
 
 # Create address_complete
 crimeInSYR$address_complete <- paste(crimeInSYR$address, crimeInSYR$city)

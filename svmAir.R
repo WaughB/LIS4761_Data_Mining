@@ -48,7 +48,8 @@ ksvmResults <- table(ksvmPred, testing_set$Ozone)
 # Calculate RMSE for KSVM. 
 ksvmRMSE <- RMSE(testing_set$Ozone, ksvmPred)
 
-# Graph for KSVM. 
+# Graph for KSVM. *** TODO ***
+
 
 
 # Create model using SVM. 
@@ -65,7 +66,7 @@ resultFinal <- mean(pred_test_svm==testing_set$Ozone)
 # Calculate the RMSE for the SVM. 
 svmRMSE <- RMSE(testing_set$Ozone, pred_test_svm)
 
-# Graph for SVM. 
+# Graph for SVM. *** TODO ***
 
 
 
@@ -85,11 +86,28 @@ lmMod
 # Calculate the RMSE for the LM. 
 lmMod$results$RMSE
 
-# Graph for LM. 
+# Graph for LM. *** TODO *** 
 
+
+# Combine three previous graphs for comparison. *** TODO ***
 
 # Create goodOzone variable. Zero if lower than average, 
-# one if higher than usual.
+# one if higher than usual. *** TODO *** 
 
 
+## Create KSVM based on goodOzone. *** TODO ***
 
+
+# Calculate the RMSE for the KSVM. *** TODO ***
+
+
+## Create SVM based on gooOzone. *** TODO ***
+
+
+# Calculate the RMSE for the SVM. *** TODO ***
+
+
+## Create Naive-Bayes based on goodOzone. *** TODO ***
+
+
+# Calculate the RMSE for the Naive-Bayes. *** TODO ***

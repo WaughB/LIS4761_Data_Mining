@@ -16,7 +16,7 @@ Data Mining course taken in Summer 2019. Not all modules produce code. The ones 
 
 * Week 7 - Hi Ho, Hi Ho--Data Mining We Go. [Rule Mining - Using aRules on the Titanic dataset](titanic.R), [data](/data/titanic.raw.rdata)
 
-* Week 8 - What's Your Vector, Victor?
+* Week 8 - What's Your Vector, Victor? [Support Vector Machines](svmAir.R)
 
 * Week 9 - Shiny Web Apps
 

@@ -18,6 +18,6 @@ Data Mining course taken in Summer 2019. Not all modules produce code. The ones 
 
 * Week 8 - What's Your Vector, Victor? [Support Vector Machines](svmAir.R)
 
-* Week 9 - Shiny Web Apps
+* Week 9 - Shiny Web Apps [Build Your Own Shiny App](shinyApp.R), [data](/data/census_data.csv)
 
-* Final Project
+* Final Project [Sentiment Analysis of Airline Tweets & Visualizations](finalProj.R)
